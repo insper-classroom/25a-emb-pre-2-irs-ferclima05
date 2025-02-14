@@ -11,9 +11,9 @@ volatile int flag_G = 0;
 
 void btn_callback(uint gpio, uint32_t events) {
   if (gpio == BTN_PIN_R) {
-    flag_R = !flag_R;  // Inverte o estado do LED vermelho
+    flag_R = !flag_R; 
   } else if (gpio == BTN_PIN_G) {
-    flag_G = !flag_G;  // Inverte o estado do LED verde
+    flag_G = !flag_G; 
   }
 }
 
